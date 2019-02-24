@@ -1,0 +1,41 @@
+
+.pop {
+  display: none;
+  position: fixed;
+  top: 31.3%;
+  left: 18.5%;
+  width: 63%;
+  height: 63%;
+  background: #ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  outline: 10px solid rgba(0, 0, 0, 0.1);
+}
+.pop > h1 {
+  padding: 30px 30px 10px 30px;
+  color: #2a3644;
+  font-size: 100%;
+}
+.pop > p {
+  padding-left: 30px;
+  font-size: 100%;
+  color: #777;
+}
+.pop > span {
+  cursor: pointer;
+  position: absolute;
+
+  top: 4%;
+  right: 4%;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background: black;
+  color: white;
+  padding: 6px 0px 0px 9px;
+  width: 35px;
+  height: 35px;
+}
